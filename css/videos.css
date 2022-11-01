@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+}
+
+main{
+    background-color: rgb(176, 147, 243);
+    width: 76%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display:flex;
+    padding: 10;
+}
+
+h1{
+    margin: 0 auto;
+    justify-content: center;
+    color: white;
+}
+
+a{
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    color: darkorchid;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+section{
+    background-color:rgb(147, 112, 216);
+    padding: 20px;
+    margin: 3% auto;
+}
+
+iframe{
+    margin: 3px;
+}

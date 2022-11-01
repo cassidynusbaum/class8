@@ -1,0 +1,34 @@
+img{
+    width: 410px;
+    height: 300px;
+}
+
+img:hover{
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+a{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+button{
+    border-radius: 20px;
+    border: none;
+}
+
+section{
+    display: flex;
+    background-color: mediumpurple
+}
+
+p{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0;
+}
+
+
+section:hover{
+    background-color: darkorchid;
+    transition: background-color 1s;
+}

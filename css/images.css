@@ -1,0 +1,52 @@
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius:150px ;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div{
+    background-color: mediumpurple;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+div:hover{
+    background-color: darkorchid;
+    transition:background-color 1s;
+}
+
+img:hover{
+    transform:scale(1.1);
+    transition: transform 1s;
+}
+
+main{
+    background-color: rgb(176, 147, 243);
+    width: 76%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display:flex;
+    
+}
+
+h1{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+a{
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    margin:0 10px;
+    border-radius: 20px;
+    color: darkorchid;
+}
